@@ -1,4 +1,9 @@
 using System.Text.Json.Serialization;
+using Application.Core;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using MediatR;
+using Persistence;
 
 namespace Application.Profiles
 {
